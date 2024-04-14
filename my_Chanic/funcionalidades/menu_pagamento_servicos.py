@@ -8,6 +8,7 @@ class MenuPagamentoServicos:
         # estrutura condicional que verifica a resposta do usuário
         # caso sim, o programa retorna a função efetuar_pagamento, fazendo a simulação de pagamento
         if resposta.upper() == "S":
+            forma_pgto = input('Deseja pagar com cartão ou pix?')
             return self.efetuar_pagamento()
         # caso nao, o programa printa uma mensagem aconselhando a pagar antes do vencimento e retorna ao menu principal
         elif resposta.upper() == "N":
