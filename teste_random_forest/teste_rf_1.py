@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
@@ -9,28 +10,28 @@ trinca_bloco = pd.read_csv('trinca_de_bloco.csv')
 barulho_motor = pd.read_csv('barulho_no_motor.csv')
 vazamento_oleo = pd.read_csv('vazamento_oleo.csv')
 
-print(superaquecimento.head())
-print(trinca_bloco.head())
-print(barulho_motor.head())
-print(vazamento_oleo.head())
-print('-----------------')
-
-print(superaquecimento.dtypes)
-print(trinca_bloco.dtypes)
-print(barulho_motor.dtypes)
-print(vazamento_oleo.dtypes)
-print('-----------------')
-
-print(superaquecimento.describe())
-print(trinca_bloco.describe())
-print(barulho_motor.describe())
-print(vazamento_oleo.describe())
-print('-----------------')
-
-print(superaquecimento.isnull().sum())
-print(trinca_bloco.isnull().sum())
-print(barulho_motor.isnull().sum())
-print(vazamento_oleo.isnull().sum())
+# print(superaquecimento.head())
+# print(trinca_bloco.head())
+# print(barulho_motor.head())
+# print(vazamento_oleo.head())
+# print('-----------------')
+#
+# print(superaquecimento.dtypes)
+# print(trinca_bloco.dtypes)
+# print(barulho_motor.dtypes)
+# print(vazamento_oleo.dtypes)
+# print('-----------------')
+#
+# print(superaquecimento.describe())
+# print(trinca_bloco.describe())
+# print(barulho_motor.describe())
+# print(vazamento_oleo.describe())
+# print('-----------------')
+#
+# print(superaquecimento.isnull().sum())
+# print(trinca_bloco.isnull().sum())
+# print(barulho_motor.isnull().sum())
+# print(vazamento_oleo.isnull().sum())
 
 if superaquecimento.isnull().sum().any() or trinca_bloco.isnull().sum().any() or barulho_motor.isnull().sum().any() or vazamento_oleo.isnull().sum().any():
     print('Valores ausentes encontrados')
@@ -102,3 +103,13 @@ vazamento_final = pd.concat([var_cat_vazamento_encoded, var_num_vazamento_scaled
 citroen_dados = pd.concat([superaquecimento_final, trinca_final, barulho_final, vazamento_final], axis=1)
 print(citroen_dados.head())
 print(citroen_dados.shape)
+print(citroen_dados.describe())
+print(citroen_dados.dtypes)
+
+target_variable = citroen_dados['solucao']
+features = citroen_dados.drop('solucao', axis=1)
+
+X_train, X_test, Y_train, Y_test = train_test_split(features, target_variable, test_size=0.2, random_state=42)
+
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, Y_train)
