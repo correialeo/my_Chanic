@@ -14,7 +14,7 @@ def main_menu():
     while executar:
         # programa printa menu principal e da as opções ao cliente
         print('----- MENU PRINCIPAL -----')
-        resposta = input('DIGITE 1 PARA DIAGNÓSTICOS\nDIGITE 2 PARA PAGAMENTOS\nDIGITE 3 PARA DAR FEEDBACKS\nDIGITE 4 PARA SAIR')
+        resposta = input('DIGITE 1 PARA DIAGNÓSTICOS\nDIGITE 2 PARA PAGAMENTOS\nDIGITE 3 PARA DAR FEEDBACKS\nDIGITE 4 PARA VER SEU HISTÓRICO DE PROBLEMAS\nDIGITE 5 PARA SAIR')
 
         # caso 1, abre o menu de diagnósticos
         if resposta == '1':
@@ -28,8 +28,12 @@ def main_menu():
         elif resposta == '3':
             menu_feedback.menu_feedback()
 
-        # caso 4, ele sai do programa, colocando a condição do while como falsa
+        #caso 4, abre o menu de históricos
         elif resposta == '4':
+            menu_diagnostico.historico_de_problemas()
+
+        # caso 5, ele sai do programa, colocando a condição do while como falsa
+        elif resposta == '5':
             executar = False
 
         # caso não seja nenhum, o programa printa opção inválida e retorna para o menu principal
