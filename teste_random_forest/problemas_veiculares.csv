@@ -52,3 +52,54 @@ Vazamento de óleo,Defeito na peça: Vazamento visível de óleo no amortecedor,
 Vazamento de óleo,Montagem incorreta: Ruído de atrito durante o movimento da suspensão,"Vibração e ruído na suspensão, especialmente em terrenos irregulares",Revisão e ajuste da montagem do amortecedor (conforme garantia)
 Vazamento de óleo,Desgaste prematuro: Ruído metálico durante a compressão e descompressão da suspensão,Perda de eficiência da suspensão e aumento do desgaste dos pneus,Reparo ou troca do amortecedor (conforme garantia)
 Vazamento de óleo,Danos por impactos: Ruído metálico forte e irregular na suspensão,Perda de controle do veículo e risco de acidentes,Reparo ou troca do amortecedor e outros componentes danificados
+Problemas na correia dentada,Instalação incorreta,Dificuldade em dar partida,Verificar e reparar vazamento de óleo
+Problemas na correia dentada,Óleo vazando na correia,Ruído de batida metálica no motor,Verificar e reparar vazamento de óleo
+Problemas na correia dentada,Desgaste natural da correia,Perda de sincronismo do motor,Substituição da correia dentada
+Problemas na correia dentada,Desgaste natural da correia,Motor falhando,Reparo ou substituição do tensionador
+Problemas na correia dentada,Desgaste natural da correia,Perda de sincronismo do motor,Verificar e reparar vazamento de óleo
+Problemas na correia dentada,Óleo vazando na correia,Dificuldade em dar partida,Reinstalação correta da correia
+Problemas na correia dentada,Desgaste natural da correia,Dificuldade em dar partida,Reparo ou substituição do tensionador
+Problemas na correia dentada,Tensionador de correia defeituoso,Motor falhando,Substituição da correia dentada
+Problemas na correia dentada,Óleo vazando na correia,Perda de sincronismo do motor,Reparo ou substituição do tensionador
+Problemas na correia dentada,Instalação incorreta,Dificuldade em dar partida,Reparo ou substituição do tensionador
+Problemas na correia dentada,Instalação incorreta,Ruído de batida metálica no motor,Verificar e reparar vazamento de óleo
+Falha na embreagem,Fuga de fluido hidráulico,Embreagem patinando,Ajuste ou substituição do pedal de embreagem
+Falha na embreagem,Desgaste do disco de embreagem,Ruído ao pressionar o pedal da embreagem,Substituição do disco de embreagem
+Falha na embreagem,Desgaste do disco de embreagem,Pedal da embreagem fica preso no chão,Substituição do disco de embreagem
+Falha na embreagem,Problemas no pedal de embreagem,Ruído ao pressionar o pedal da embreagem,Reparo ou substituição do cabo de embreagem
+Falha na embreagem,Problemas no pedal de embreagem,Ruído ao pressionar o pedal da embreagem,Substituição do disco de embreagem
+Falha na embreagem,Problema no cabo de embreagem,Pedal da embreagem fica preso no chão,Substituição do disco de embreagem
+Falha na embreagem,Problemas no pedal de embreagem,Embreagem patinando,Ajuste ou substituição do pedal de embreagem
+Falha na embreagem,Fuga de fluido hidráulico,Ruído ao pressionar o pedal da embreagem,Verificar e reparar fuga de fluido hidráulico
+Falha na embreagem,Desgaste do disco de embreagem,Pedal da embreagem fica preso no chão,Ajuste ou substituição do pedal de embreagem
+Falha na embreagem,Desgaste do disco de embreagem,Pedal da embreagem fica preso no chão,Ajuste ou substituição do pedal de embreagem
+Desgaste dos freios,Fuga de fluido de freio,Perda de eficiência na frenagem,Reparar fuga de fluido de freio
+Desgaste dos freios,Desgaste das pastilhas de freio,Ruído ao frear,Reparar fuga de fluido de freio
+Desgaste dos freios,Problemas no cilindro mestre,Perda de eficiência na frenagem,Substituição dos discos de freio
+Desgaste dos freios,Desgaste dos discos de freio,Ruído ao frear,Verificar e reparar o cilindro mestre
+Desgaste dos freios,Desgaste dos discos de freio,Veículo puxa para um lado ao frear,Substituição dos discos de freio
+Desgaste dos freios,Desgaste das pastilhas de freio,Perda de eficiência na frenagem,Substituição dos discos de freio
+Desgaste dos freios,Desgaste dos discos de freio,Pedal de freio macio ou duro demais,Reparar fuga de fluido de freio
+Desgaste dos freios,Desgaste dos discos de freio,Perda de eficiência na frenagem,Substituição das pastilhas de freio
+Desgaste dos freios,Fuga de fluido de freio,Perda de eficiência na frenagem,Substituição das pastilhas de freio
+Desgaste dos freios,Desgaste das pastilhas de freio,Ruído ao frear,Substituição das pastilhas de freio
+Falhas na bomba de combustível,Problemas no regulador de pressão,Motor falhando em altas velocidades,Reparar ou substituir conexões elétricas
+Falhas na bomba de combustível,Filtros de combustível entupidos,Perda de potência do motor,Substituição da bomba de combustível
+Falhas na bomba de combustível,Desgaste natural da bomba,Perda de potência do motor,Substituição da bomba de combustível
+Falhas na bomba de combustível,Filtros de combustível entupidos,Motor falhando em altas velocidades,Verificação e ajuste do regulador de pressão
+Falhas na bomba de combustível,Filtros de combustível entupidos,Motor falhando em altas velocidades,Verificação e ajuste do regulador de pressão
+Falhas na bomba de combustível,Desgaste natural da bomba,Perda de potência do motor,Verificação e ajuste do regulador de pressão
+Falhas na bomba de combustível,Desgaste natural da bomba,Dificuldade em dar partida,Substituição da bomba de combustível
+Falhas na bomba de combustível,Problemas no regulador de pressão,Perda de potência do motor,Reparar ou substituir conexões elétricas
+Falhas na bomba de combustível,Conexões elétricas ruins,Motor falhando em altas velocidades,Limpeza ou substituição dos filtros de combustível
+Falhas na bomba de combustível,Problemas no regulador de pressão,Ruído vindo do tanque de combustível,Limpeza ou substituição dos filtros de combustível
+Falha no alternador,Conexões elétricas soltas,Faróis fracos ou intermitentes,Verificação e reparo do regulador de voltagem
+Falha no alternador,Desgaste dos rolamentos,Ruído ao ligar o motor,Substituição dos rolamentos
+Falha no alternador,Problemas no regulador de voltagem,Bateria descarregando rapidamente,Ajuste ou substituição da correia do alternador
+Falha no alternador,Problemas no regulador de voltagem,Luz da bateria acesa no painel,Verificação e reparo do regulador de voltagem
+Falha no alternador,Correia do alternador solta,Bateria descarregando rapidamente,Verificação e reparo do regulador de voltagem
+Falha no alternador,Desgaste dos rolamentos,Ruído ao ligar o motor,Verificação e reparo do regulador de voltagem
+Falha no alternador,Problemas no regulador de voltagem,Luz da bateria acesa no painel,Verificação e reparo do regulador de voltagem
+Falha no alternador,Conexões elétricas soltas,Bateria descarregando rapidamente,Substituição dos rolamentos
+Falha no alternador,Correia do alternador solta,Bateria descarregando rapidamente,Verificação e reparo do regulador de voltagem
+Falha no alternador,Conexões elétricas soltas,Luz da bateria acesa no painel,Substituição dos rolamentos
