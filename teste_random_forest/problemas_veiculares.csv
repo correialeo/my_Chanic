@@ -1,0 +1,54 @@
+problema,causa,sintoma,solucao
+Freios ruidosos,Pastilhas de freio desgastadas,Ruídos ao frear,Substituir as pastilhas de freio
+Freios ruidosos,Discos deformados,Pedal de freio duro,Substituir os discos de freio
+Dificuldades na transmissão,Nível baixo de fluido,Dificuldade em trocar marchas,Reabastecer o fluido de transmissão
+Dificuldades na transmissão,Componentes desgastados,Barulho na transmissão,Reparar ou substituir a transmissão
+Bateria descarregando rapidamente,Alternador defeituoso,Dificuldade em dar partida,Substituir o alternador
+Bateria descarregando rapidamente,Corrosão nos terminais,Luzes fracas,Limpar os terminais da bateria
+Desgaste irregular dos pneus,Desalinhamento,Vibrações ao dirigir,Realinhar as rodas
+Desgaste irregular dos pneus,Balanceamento inadequado,Direção puxando para um lado,Realizar o balanceamento das rodas
+Barulhos na suspensão,Amortecedores desgastados,Rangidos ao passar por buracos,Substituir os amortecedores
+Barulhos na suspensão,Buchas danificadas,Direção dura,Substituir as buchas
+Falhas elétricas,Alternador defeituoso,Falhas no sistema de iluminação,Substituir o alternador
+Falhas elétricas,Bateria defeituosa,Dificuldades no arranque,Substituir a bateria
+Vazamento no sistema de refrigeração,Mangueiras rachadas,Perda de fluido de arrefecimento,Substituir as mangueiras
+Vazamento no sistema de refrigeração,Radiador com vazamento,Superaquecimento do motor,Reparar ou substituir o radiador
+Falhas nos sensores,Sensores sujos,Luz de aviso no painel,Limpar os sensores
+Falhas nos sensores,Sensores defeituosos,Desempenho irregular,Substituir os sensores
+Problemas no sistema de escape,Vazamentos no sistema,Ruído excessivo,Reparar o vazamento
+Problemas no sistema de escape,Catalisador obstruído,Cheiro de gases no interior do veículo,Substituir o catalisador
+Barulho no motor,"Defeito de fábrica: Vibrações excessivas no motor, especialmente em baixas rotações",Ruído constante e incômodo no interior do veículo,Reparo ou troca do motor (conforme garantia)
+Barulho no motor,"Montagem incorreta: Ruído metálico intermitente, principalmente durante aceleração",Vibração e ruído perceptíveis em momentos específicos,Revisão e ajuste da montagem do motor (conforme garantia)
+Barulho no motor,"Desgaste de peças: Ruído metálico constante, especialmente em alta rotação",Perda de potência e aumento do consumo de combustível,Reparo ou troca da peça desgastada (conforme garantia)
+Barulho no motor,Problemas na transmissão: Ruído de atrito durante a troca de marchas,Dificuldade em trocar marchas e vibração no veículo,Reparo ou troca da peça defeituosa na transmissão (conforme garantia)
+Superaquecimento,Vazamento no sistema de arrefecimento,Vazamento de água do motor,"Reparar o vazamento (mangueiras, junções, etc.)"
+Superaquecimento,Vazamento no sistema de arrefecimento,Perda de líquido de arrefecimento,Completar o nível do líquido de arrefecimento e reparar o vazamento
+Superaquecimento,Problemas com o radiador,Vazamento de água do radiador,Substituir o radiador
+Superaquecimento,Problemas com o radiador,Aletas do radiador entupidas,Limpar as aletas do radiador
+Superaquecimento,Termostato defeituoso,Termostato travado na posição fechada,Substituir o termostato
+Superaquecimento,Termostato defeituoso,Termostato travado na posição aberta,Substituir o termostato
+Superaquecimento,Bomba d'água defeituosa,Bomba d'água não funciona,Substituir a bomba d'água
+Superaquecimento,Ventilador elétrico defeituoso,Ventilador não liga,Substituir o ventilador elétrico
+Superaquecimento,Nível baixo de líquido de arrefecimento,Vazamento de líquido de arrefecimento,Completar o nível do líquido de arrefecimento e reparar o vazamento
+Superaquecimento,Nível baixo de líquido de arrefecimento,Falta de adição de líquido de arrefecimento,Completar o nível do líquido de arrefecimento com a mistura correta (água desmineralizada e aditivo)
+Superaquecimento,Tampa do radiador defeituosa,Tampa não veda corretamente,Substituir a tampa do radiador
+Superaquecimento,Uso de líquido de arrefecimento inadequado,Líquido de arrefecimento de baixa qualidade,Substituir o líquido de arrefecimento pelo recomendado no manual do proprietário
+Superaquecimento,Falha na junta do cabeçote,Vazamento de gases da combustão para o sistema de arrefecimento,Substituir a junta do cabeçote
+Superaquecimento,Superaquecimento excessivo,Fumaça saindo do capô,Desligar o motor imediatamente e aguardar esfriar antes de abrir o capô
+Superaquecimento,Superaquecimento excessivo,Bolhas de ar no sistema de arrefecimento,Fazer a sangria do sistema de arrefecimento
+Trinca no Bloco do Motor,Pressão excessiva no sistema de arrefecimento,Vazamento de líquido de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Pressão excessiva no sistema de arrefecimento,Superaquecimento do Motor,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Pressão excessiva no sistema de arrefecimento,Perda de potência do motor,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Pressão excessiva no sistema de arrefecimento,Fumaça branca no escapamento,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Exposição a altas temperaturas,Vazamento de líquido de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Exposição a altas temperaturas,Superaquecimento do Motor,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Exposição a altas temperaturas,Perda de potência do motor,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Exposição a altas temperaturas,Fumaça branca no escapamento,Possível reparo com resina epóxi ou substituição do bloco do motor
+Trinca no Bloco do Motor,Defeitos de Fabricação,Vazamento de líquido de arrefecimento,Substituição do bloco do motor
+Trinca no Bloco do Motor,Defeitos de Fabricação,Superaquecimento do Motor,Substituição do bloco do motor
+Trinca no Bloco do Motor,Defeitos de Fabricação,Perda de potência do motor,Substituição do bloco do motor
+Trinca no Bloco do Motor,Defeitos de Fabricação,Fumaça branca no escapamento,Substituição do bloco do motor
+Vazamento de óleo,Defeito na peça: Vazamento visível de óleo no amortecedor,"Manchas de óleo no chão sob o amortecedor, perda de eficiência e desgaste prematuro dos pneus",Reparo ou troca do amortecedor (conforme garantia)
+Vazamento de óleo,Montagem incorreta: Ruído de atrito durante o movimento da suspensão,"Vibração e ruído na suspensão, especialmente em terrenos irregulares",Revisão e ajuste da montagem do amortecedor (conforme garantia)
+Vazamento de óleo,Desgaste prematuro: Ruído metálico durante a compressão e descompressão da suspensão,Perda de eficiência da suspensão e aumento do desgaste dos pneus,Reparo ou troca do amortecedor (conforme garantia)
+Vazamento de óleo,Danos por impactos: Ruído metálico forte e irregular na suspensão,Perda de controle do veículo e risco de acidentes,Reparo ou troca do amortecedor e outros componentes danificados
