@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 import re
 
-problemas = pd.read_csv('problemas_veiculares.csv')
+problemas = pd.read_csv('../problemas_veiculares.csv')
 
 #função para processar a mensagem de entrada
 def processar_mensagem(mensagem, problemas):
